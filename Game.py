@@ -5,4 +5,4 @@ white = (255, 255, 255)
 black = (0, 0, 0)
 
 pygame.init()
-pygame.font.SysFont
+pygame.font.SysFont("Arial")
