@@ -27,11 +27,12 @@ Scoring
 | Player 1 | `W`        | `S`           |
 | Player 2 | `↑` (Up Arrow) | `↓` (Down Arrow) |
 
-## Requirements
+
+## 🔧 Requirements
 - Python 3
 - pygame library
 
-  ## Installation
+## Installation
   
 `pip install pygame`
 
