@@ -1,8 +1,9 @@
-# Pong Game Python 🏓
+# PongPY 🏓
 
 I built the classic Pong game using Python and pygame. 
 
-🎮 Features
+## 🎮 Features
+
 ✅ Two-player controls (W/S for Player 1, Arrow Keys for Player 2)
 
 🔊 Real-time sound effects:
@@ -19,8 +20,19 @@ Scoring
 
 ⚙️ Adjustable frame delay and paddle speed
 
-🕹️ Controls
+## 🕹️ Controls
 Player	Up Key	Down Key
 Player 1	W	S
 Player 2	↑ (Up Arrow)	↓ (Down Arrow)
 Press ESC to quit the game.
+
+## Requirements
+- Python 3
+- pygame library
+
+  ## Installation
+  
+`pip install pygame`
+
+Run the game : `python pong.py`
+
