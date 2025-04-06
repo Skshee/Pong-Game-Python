@@ -21,10 +21,11 @@ Scoring
 ⚙️ Adjustable frame delay and paddle speed
 
 ## 🕹️ Controls
-Player	Up Key	Down Key
-Player 1	W	S
-Player 2	↑ (Up Arrow)	↓ (Down Arrow)
-Press ESC to quit the game.
+
+| Player   | Up Key     | Down Key      |
+|----------|------------|---------------|
+| Player 1 | `W`        | `S`           |
+| Player 2 | `↑` (Up Arrow) | `↓` (Down Arrow) |
 
 ## Requirements
 - Python 3
