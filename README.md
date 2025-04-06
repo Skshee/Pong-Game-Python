@@ -8,11 +8,11 @@ I built the classic Pong game using Python and pygame.
 
 🔊 Real-time sound effects:
 
-Paddle collision
+- Paddle collision
 
-Wall bounce
+- Wall bounce
 
-Scoring
+- Scoring
 
 🧠 Simple yet responsive physics
 
