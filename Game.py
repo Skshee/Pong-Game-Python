@@ -90,14 +90,14 @@ def apply_ball_movement():
         # Only play sound if we're actually hitting from the right direction
         if prev_ball_x > p1_x_pos + paddle_width:
             paddle_sound.play()  
-        ball_x_vel = -ball_x_vel
+        ball_x_vel = -ball_x_vel * 1.05
         ball_y_vel = (ball_y_pos - (p1_y_pos + paddle_height / 2)) / 5
 
     if (ball_x_pos >= p2_x_pos - ball_width and p2_y_pos < ball_y_pos < p2_y_pos + paddle_height):
         # Only play sound if we're actually hitting from the left direction
         if prev_ball_x < p2_x_pos - ball_width:
             paddle_sound.play()  
-        ball_x_vel = -ball_x_vel
+        ball_x_vel = -ball_x_vel * 1.05
         ball_y_vel = (ball_y_pos - (p2_y_pos + paddle_height / 2)) / 5
 
     # Scoring conditions
